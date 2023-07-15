@@ -13,3 +13,17 @@ def solution(s):
         return True
     else :
         return False
+    
+    """answer = []
+    if len(s)%2 == 1 :
+        return False
+    for i in range(len(s)) :
+        if len(answer) == 0 :
+            answer.append(s[i])
+        else :
+            if answer[i-1] + s[i] == '()' :
+                answer.pop()
+    if len(answer) == 0 :
+        return True
+    else :
+        return False"""
