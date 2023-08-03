@@ -10,3 +10,7 @@ def solution(my_string):
     if temp != '' :
         s += int(temp)
     return s
+"""훨씬 나은 풀이
+def solution(my_string) :
+    n = ''.join( x for x in my_string if x.isdigit() else '')
+    return sum( i for i in n.split())"""
